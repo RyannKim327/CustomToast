@@ -14,7 +14,7 @@ public class toast {
         TextView v = new TextView(ctx);
         float r = 10;
         ShapeDrawable d = new ShapeDrawable(new RoundRectShape(new float[]{r, r, r, r, r, r, r, r}, null, null));
-        
+		
 		d.getPaint().setColor(Color.parseColor("#1d7fe8"));
         v.setText(str);
         v.setPadding(5, 10, 5, 10);
